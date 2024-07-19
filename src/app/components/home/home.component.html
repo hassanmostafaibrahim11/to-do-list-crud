@@ -1,0 +1,26 @@
+<h1
+  [style]="{
+    color: 'lightblue',
+    'font-family': 'cursive',
+    'text-align': 'center'
+  }"
+>
+  Welcome To ToDo-list Web App
+</h1>
+
+<button
+  [routerLink]="['/todos']"
+  [ngStyle]="{
+    margin: 'auto',
+    display: 'block',
+    outline: 'none',
+    border: 'none',
+    backgroundColor: '#0f4761',
+    color: '#fff',
+    borderRadius: '5px',
+    padding: '10px'
+  }"
+>
+  get started
+</button>
+<router-outlet />
